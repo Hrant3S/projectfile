@@ -1,0 +1,586 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+.menu{
+	    height: 3540px;
+    background: #222021;
+}
+.container{
+	width:100%;
+}
+.menu1{
+		background-image: url('../image/imag.png');
+	background-repeat: no-repeat;
+height:1200px;
+
+}
+.menu1 img{
+	float:left;
+	padding-left:77px;
+	padding-top:56px;
+}
+ul{
+	display:flex;
+	padding-top:79px;
+	list-style:none;
+	padding-left:402px;
+	float:left;
+
+}
+a{
+	text-decoration:none;
+	padding:0px 50px;
+	color: #F5F5F5;
+}
+.menu-2{
+	position: absolute;
+width: 1059px;
+height: 714px;
+left: 290px;
+top: 219px;
+background: #1E0C06;
+border-radius: 43px 0px 0px 43px;
+}
+h1{
+	
+position: absolute;
+width: 622px;
+height: 321px;
+left: 50px;
+top: 75px;
+
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 115.4%;
+text-transform: uppercase;
+color: #F5F5F5;
+
+}
+.bg-red p{
+	position: absolute;
+width: 333px;
+height: 78px;
+left: 62px;
+top: 418px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+color: #FFDBBB;
+}
+button{
+	font-size:26px;
+	color:white;
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 11px 70px;
+gap: 10px;
+position: relative;
+width: 225px;
+height: 58px;
+left: 50px;
+top: 554px;
+background: #728BAD;
+border-radius: 42px;
+}
+
+button:hover{
+	color: rgba(255, 192, 153, 1);
+	background-color: rgba(132, 136, 145, 1);
+	box-shadow: 2px 3px 3px 1px;
+}
+.bg-yellow{
+	color: rgb(173 153 255);
+position: absolute;
+width: 486px;
+height: 0px;
+left: 295px;
+top: 318px;
+
+border: 1px solid #F5F5F5;
+transform: rotate(90deg);
+}
+.bg-orange{
+	position: absolute;
+height: 205px;
+left: 788px;
+top: 7px;
+background: url(woman-assembling-diy-chair-from-scratch);
+border-radius: 42px;
+}
+.bg-gold{
+	position: absolute;
+width: 205px;
+height: 205px;
+left: 788px;
+top: 482px;
+background: url(overhead-shot-modern-house-wooden-spiral-staircase.jpg);
+border-radius: 42px;
+}
+.bg-black{
+	position: absolute;
+height: 645px;
+left: 574px;
+top: 250px;
+
+}
+.menu-3{
+	  
+    height: 5100px;
+    background: #222021;
+}
+.group-2{
+	padding-top:90px;
+	display: flex;
+    justify-content: space-around;
+}
+.menu-4 h3{
+	
+width: 920px;
+height: 230px;
+padding-left:245px;
+padding-top:70px;
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 132.9%;
+text-transform: uppercase;
+
+color: #F5F5F5;
+}
+.group{
+
+width: 205px;
+height: 205px;
+left: 6px;
+top: 480px;
+
+background: url(old-wood-grain-background);
+border-radius: 42px;
+}
+.group p{
+width: 59px;
+height: 36px;
+padding-left:67px;
+padding-top:40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #F5F5F5;
+}
+.menu-5{
+	clear:both;
+}
+.menu-5 img{
+width: 205px;
+height: 205px;
+left: 1px;
+top: 0px;
+
+background: url(wood-texture-design-decoration.jpg);
+border-radius: 42px;
+}
+.menu-5 p{
+padding-left:67px;
+padding-top:40px;
+width: 56px;
+height: 36px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #F5F5F5;
+}
+.menu-6 img{
+
+width: 205px;
+height: 205px;
+left: 1px;
+top: 0px;
+
+background: url(pale-oak-wood-texture-design-background.jpg);
+border-radius: 42px;
+}
+.menu-6 p {
+	
+width: 58px;
+height: 36px;
+padding-left:67px;
+padding-top:40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #F5F5F5;
+
+}
+.group h3{
+padding-top:55px;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+color: #F5F5F5;
+}
+.menu-5 h3{
+	padding-top:55px;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+color: #F5F5F5;
+
+}
+.menu-6 h3{
+padding-top:55px;
+font-size: 30px;
+line-height: 36px;
+color: #F5F5F5;
+}
+.work-1 h2{
+padding-left:319px;
+padding-top:380px;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+
+text-transform: uppercase;
+
+color: #F5F5F5;
+
+}
+.working-title h2{
+	padding-top:310px;
+padding-left:160px;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+
+text-transform: uppercase;
+
+color: #F5F5F5;
+}
+.slider_show{
+	padding-right:28px;
+	padding-top:305px;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider{
+	position: relative;
+	overflow: hidden;
+	max-width: 900px;
+	height: auto;
+}
+
+.slider_items_show{
+	width:500%;
+	height:100%;
+	display: flex;
+}
+
+.slider_items_show .items{
+	width: 20%;
+	transition: .9s;
+}
+
+.slider_items_show .items img{
+	max-width: 100%;
+	height: 92 v%;
+}
+
+.slider_items_show input{
+	position: absolute;
+	visibility: hidden;
+}
+
+.slaider_nav{
+	position: absolute;
+	bottom: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slaider_nav .slider_item{
+	width: 60px;
+	height: 15px;
+	border: 2px solid #991414;
+	margin: 7px;
+	cursor: pointer;
+	transition: .5s;
+}
+.slaider_nav .slider_item:hover{
+	background-color: blue;
+}
+
+#sli_1:checked ~ .s_show{
+	margin-left: 0px;
+}
+#sli_2:checked ~ .s_show{
+	margin-left: -900px;
+}
+#sli_3:checked ~ .s_show{
+	margin-left: -1800px;
+}
+#sli_4:checked ~ .s_show{
+	margin-left: -2700px;
+}
+.working-img{
+	float:left;
+	padding-top:160px;
+}
+.working-img img{
+padding-left:100px;
+background: url(screenshot-www.pexels.com-2022.07.png);
+border-radius: 42px;
+}
+.working-text h2{
+
+height: 84px;
+left: 731px;
+top: 351px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 139.4%;
+color: #F5F5F5;
+}
+.working-text{
+	padding-top:160px;
+}
+.working-text2{
+	padding-top:55px;
+}
+.working-text3{
+	padding-top:95px;
+}
+
+.span button{
+width: 332px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #F5F5F5;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.about{
+width: 1270px;
+height: 775px;
+padding-top:110px;
+background: #1E0C06;
+border-radius: 0px 42px 42px 0px;
+}
+.about-title h2{
+padding-left:70px;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+
+text-transform: uppercase;
+
+color: #F5F5F5;
+}
+.about-img{
+	position:relative;
+}
+.about-title{
+position:absolute;
+}  
+.about-title p{
+	width:695px;
+padding-left:70px;
+font-weight: 700;
+font-size: 30px;
+line-height: 139.4%;
+padding-top:65px;
+color: #F5F5F5;
+
+}  
+.about-img1{
+	position: absolute;
+width: 205px;
+height: 205px;
+left: 1021px;
+background: url(person-taking-measures-wood.jpg);
+border-radius: 42px;
+}
+.about-img2{
+	position: absolute;
+width: 337px;
+height: 337px;
+left: 785px;
+top: 127px;
+
+background: url(portrait-young-motivated-carpenter-standing-by-woodworking-machine-his-carpentry-workshop.jpg);
+border-radius: 42px;
+}
+.about-img3{
+	position: absolute;
+width: 205px;
+height: 205px;
+left: 1018px;
+top:460px;
+
+background: url(cropped-man-wearing-blue-overall-drawing-furniture-sheet-paper.jpg);
+border-radius: 42px;
+}
+.Questions-title h2{
+	
+width: 904px;
+height: 120px;
+margin-top:63px;
+margin-left:444px;
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+text-transform: uppercase;
+color: #F5F5F5;
+
+}
+
+.Questions-input{
+	margin-top: 100px;
+	float:left;
+}
+
+.Questions-input1{
+		padding-left:60px;
+}
+
+.Questions-input input{
+	box-sizing: border-box;
+margin-top:22px;
+width: 598px;
+height: 77px;
+font-size: 27px;
+    padding-left: 28px;
+border: 4px solid #728BAD;
+border-radius: 42px;
+}
+.Questions-input2{
+	padding-top:20px;
+	padding-left:60px;
+}
+.Questions-input3 input{
+	box-sizing: border-box;
+width: 598px;
+height: 257px;
+border: 4px solid #728BAD;
+border-radius: 42px;
+}
+.Questions-input3{
+	padding-left:60px;
+	margin-top:20px;
+}
+.Questions-input3 button{
+	    margin-top: 30px;
+    position: static;
+    margin-left: 1px;
+}
+.Questions-text p{
+	margin-left: 76px;
+    margin-top: 115px;
+width: 463px;
+float:left;
+height: 126px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 139.4%;
+text-align: right;
+
+color: #F5F5F5;
+}
+.Questions-img img{
+width: 477.31px;
+height: 482.47px;
+left: 754px;
+top: 6653.65px;
+    margin-left: 105px;
+    margin-top: 100px;
+background: url(deforestation-environmental-awareness-banner-with-chopped-wood-slice-removebg-preview.png);
+transform: rotate(-27.13deg);
+}
+.footer{
+height: 255px;
+left: 0px;
+top: 0px;
+background:black;
+box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
+}
+.footer-logo {
+	padding-top:50px;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-logo p{
+font-size: 30px;
+line-height: 139.4%;
+color: #F5F5F5;
+}
+.footer-number span{
+	
+left: 12.5%;
+right: 9.49%;
+top: 9.49%;
+bottom: 12.5%;
+
+}
+.footer-logo p{
+font-size: 30px;
+line-height: 139.4%;
+color: #F5F5F5;
+}
+.footer-map span{
+left: 31.25%;
+right: 31.25%;
+top: 18.75%;
+bottom: 43.75%;
+
+background: #F5F5F5;
+}
+.footer-end span{
+margin-left:100px;
+width: 134px;
+height: 28px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 139.4%;
+color: #F5F5F5;
+}
